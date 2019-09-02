@@ -1,9 +1,9 @@
 {
-  "name": "@lessondesk/eslint-config",
+  "name": "@radio-retail/eslint-config",
   "version": "1.4.0",
-  "description": "ESLint config for Lesson Desk",
+  "description": "ESLint config for Radio Retail",
   "main": "index.js",
-  "repository": "https://github.com/lessondesk/eslint-config",
+  "repository": "https://github.com/radio-retail/eslint-config",
   "author": "Tiaan du Plessis",
   "license": "MIT",
   "scripts": {
@@ -27,7 +27,7 @@
     "Tiaan du Plessis (https://tiaan.dev)"
   ],
   "keywords": [
-    "lessondesk",
+    "radio-retail",
     "eslint",
     "eslintconfig",
     "config",

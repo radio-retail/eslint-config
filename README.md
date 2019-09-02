@@ -1,9 +1,9 @@
-# @lessondesk/eslint-config
+# @radio-retail/eslint-config
 
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![lessondesk-code-style](https://img.shields.io/badge/code%20style-lessondesk-ffa400.svg?style=flat-square)](https://github.com/lessondesk/eslint-config)
+[![radio-retail-code-style](https://img.shields.io/badge/code%20style-radio-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
 
-> ESLint config for [Lesson Desk](https://www.lessondesk.com/)
+> ESLint config for [Radio Retail](http://www.zapop.com/service/radioretail/)
 
 ## Table of Contents
 
@@ -23,16 +23,16 @@ official ESLint website.
 
 ## Usage
 
-This package has several peer dependencies. Run `npm info "@lessondesk/eslint-config@latest" peerDependencies` to list them all.
+This package has several peer dependencies. Run `npm info "@radio-retail/eslint-config@latest" peerDependencies` to list them all.
 
 Install all the dependencies:
 
 ```bash
-npm install --save-dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
+npm install --save-dev @radio-retail/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
 
 # or
 
-yarn add --dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
+yarn add --dev @radio-retail/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import
 ```
 
 
@@ -40,7 +40,7 @@ Then, add this to your `.eslintrc` file:
 
 ```json
 {
-  "extends": "@lessondesk",
+  "extends": "@radio-retail",
   "env": {
     "browser": true,
   }
@@ -60,10 +60,10 @@ Follow instructions for [prettier-eslint-cli](https://github.com/prettier/pretti
 "format": "prettier-eslint --write --eslint-ignore"
 ```
 
-### Add a badge [![lessondesk-code-style](https://img.shields.io/badge/code%20style-lessondesk-ffa400.svg?style=flat-square)](https://github.com/lessondesk/eslint-config)
+### Add a badge [![radio-retail-code-style](https://img.shields.io/badge/code%20style-radio-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
 
 ```
-[![lessondesk-code-style](https://img.shields.io/badge/code%20style-lessondesk-ffa400.svg?style=flat-square)](https://github.com/lessondesk/eslint-config)
+[![radio-retail-code-style](https://img.shields.io/badge/code%20style-radio-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
 ```
 
 ## Configurations
@@ -79,11 +79,11 @@ Includes the [default configuration](./index.js) as well as [React](https://reac
 Setup:
 
 ```bash
-$ npm install --save-dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+$ npm install --save-dev @radio-retail/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 
 # or
 
-yarn add --dev @lessondesk/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
+yarn add --dev @radio-retail/eslint-config eslint babel-eslint prettier eslint-config-prettier eslint-plugin-promise eslint-plugin-import eslint-plugin-react eslint-plugin-jsx-a11y eslint-plugin-react-hooks
 
 ```
 
@@ -91,7 +91,7 @@ In your `.eslintrc`:
 
 ```json
 {
-  "extends": "@lessondesk/eslint-config/react"
+  "extends": "@radio-retail/eslint-config/react"
 }
 ```
 
