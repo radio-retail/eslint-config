@@ -1,7 +1,7 @@
 # @radio-retail/eslint-config
 
 [![make a pull request](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![radio-retail-code-style](https://img.shields.io/badge/code%20style-radio-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
+[![radio-retail-code-style](https://img.shields.io/badge/style-radio%20retail-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
 
 > ESLint config for [Radio Retail](http://www.zapop.com/service/radioretail/)
 
@@ -60,10 +60,10 @@ Follow instructions for [prettier-eslint-cli](https://github.com/prettier/pretti
 "format": "prettier-eslint --write --eslint-ignore"
 ```
 
-### Add a badge [![radio-retail-code-style](https://img.shields.io/badge/code%20style-radio-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
+### Add a badge [![radio-retail-code-style](https://img.shields.io/badge/style-radio%20retail-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
 
 ```
-[![radio-retail-code-style](https://img.shields.io/badge/code%20style-radio-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
+[![radio-retail-code-style](https://img.shields.io/badge/style-radio%20retail-379CC1.svg?style=flat-square)](https://github.com/radio-retail/eslint-config)
 ```
 
 ## Configurations
